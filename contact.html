@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+</head>
+
+<body>
+    <a name="top"></a>
+
+    <div class="navbar">
+        <ul>
+            <li><a href="home.html" class="pages">Home</a></li>
+            <li><a href="about.html" class="pages">About</a></li>
+            <li><a href="contact.html" class="pages">Contact Us</a></li>
+        </ul>
+    </div>
+
+
+    <div class="data">
+        <div></div>
+        <div >
+            <form>
+                <label>Full Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <br>
+                <span class="error-name">Name is required</span>
+                <span class="error-name2">Name mustn't be a number</span>
+                <br>
+                
+                <label>Email</label>
+                <input type="text" id="mail" name="lastname" placeholder="Your email..">
+                <br>
+                <span class="error-mail">Email is not valid</span>
+                <br>
+                
+                <label>Password</label>
+                <input type="password" id="pass" name="password" placeholder="Your password..">
+                <br>
+                <span class="error-pass">Password must be 8 chars at least</span>
+                <br>
+                
+                <input type="submit" value="Contact Us" onclick="check()">
+            </form>
+        </div>
+        <div></div>
+    </div>
+
+
+    <div class="footer">
+        <h2>Contact us</h2>
+        <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://twitter.com/" class="fa fa-twitter" target="_blank"></a>
+        <a href="https://www.google.com/?hl=ar" class="fa fa-google-plus" target="_blank"></a>
+
+        <a href="#top" class=" fa fa-arrow-circle-up"></a>
+    </div>
+
+    <script src="JS/contact.js"></script>
+</body>
+
+</html>

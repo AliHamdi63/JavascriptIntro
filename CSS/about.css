@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    background-color: #FEFBE7;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* .navbar {
+    margin: 0;
+    padding: 0;
+    background-color: #F9EBC8;
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F9EBC8;
+}
+
+li {
+    float: left;
+}
+
+li .pages {
+    color: #000;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #DAE5D0;
+}
+
+
+/* .cart {
+    margin-left: 150px;
+} */
+
+
+/* ---------------------------- */
+
+.mid {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 300px;
+}
+
+.image {
+    width: 650px;
+    height: 450px;
+    margin-left: 30px;
+}
+
+.info {
+    /* display: inline-block; */
+    float: right;
+    margin-right: 150px;
+    font-size: 20px;
+}
+
+
+/* --------------------------------------- */
+
+.footer {
+    background-color: #F9EBC8;
+    text-align: center;
+    padding: 25px 25px;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-facebook {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-twitter {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-google-plus {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-arrow-circle-up {
+    background: #1265ea;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 30px;
+    text-decoration: none;
+    margin: 5px 80px;
+    border-radius: 100%;
+}

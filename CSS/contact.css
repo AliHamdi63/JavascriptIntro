@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    background-color: #FEFBE7;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* .navbar {
+    margin: 0;
+    padding: 0;
+    background-color: #F9EBC8;
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F9EBC8;
+}
+
+li {
+    float: left;
+}
+
+li .pages {
+    color: #000;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #DAE5D0;
+}
+
+
+/* .cart {
+    margin-left: 150px;
+} */
+
+
+/* ---------------------------- */
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    /* margin: 8px 0; */
+    margin-top: 8px;
+    margin-bottom: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 25%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.data {
+    width: 700px;
+    height: 400px;
+    border-radius: 5px;
+    background-color: #DAE5D0;
+    padding: 20px;
+    margin-left: 25%;
+    /* margin-right: 20%; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.error-name,
+.error-name2,
+.error-mail,
+.error-pass {
+    color: red;
+    display: none;
+}
+
+
+/* --------------------------------------- */
+
+.footer {
+    background-color: #F9EBC8;
+    text-align: center;
+    padding: 25px 25px;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-facebook {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-twitter {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-google-plus {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-arrow-circle-up {
+    background: #1265ea;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 30px;
+    text-decoration: none;
+    margin: 5px 80px;
+    border-radius: 100%;
+}
